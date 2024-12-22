@@ -101,6 +101,7 @@
 	--dnd-dot: var(--pink); /* Default: var(--pink) */
 	--idle-dot: var(--yellow); /* Default: var(--yellow) */
 	--streaming-dot: var(--purple); /* Default: var(--purple) */
+	--invisible-dot: #6A6A6A;
 
 	--mention-txt: var(--steamPrimaryText); /* Default: var(--steamPrimaryText) */
 	--mention-bg: var(--steamHighlight); /* Default: var(--steamHighlight) */
@@ -130,6 +131,11 @@
 	--font-primary: var(--font), var(--font), monospace;
 	--font-display: var(--font), var(--font), monospace;
 	--font-code: var(--font), var(--font), monospace;
+}
+
+.wrapper_c51b4e:has(rect[fill='#80848e'])::after,
+[class^='status_'][style='background-color: rgb(128, 132, 142);'] {
+	background: var(--invisible-dot) !important;
 }
 
 /* colors */
