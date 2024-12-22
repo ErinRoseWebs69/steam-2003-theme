@@ -5,9 +5,12 @@ Ensured to add a lot of variables for complete customizability. This repository 
 
 DEFAULT:
 (image here)
+
 BLUE SHIFT:
 (image here)
+
 ORANGE BOX:
 (image here)
+
 WHO NEEDS LABELS?:
 (image here)
